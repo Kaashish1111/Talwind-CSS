@@ -7,7 +7,6 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        /* Remove default margins and padding from body */
         * {
             margin: 0;
             padding: 0;
@@ -22,19 +21,20 @@
 <body>
     <div class="w-full h-screen bg-white">
         <!-- Full-width navbar -->
-        <div class=" contanier w-full">
-            <div class="flex justify-between items-center w-full px-2 py-4">
-                <h3 class="font-semibold">Kashish</h3>
-                <div class="hidden lg:flex gap-10 w-80">
-                    <a class="text-xs" href="#">Work</a>
-                    <a class="text-xs" href="#">Contact</a>
-                    <a class="text-xs" href="#">Service</a>
-                    <a class="text-xs" href="#">Pricing</a>
+        <nav class="w-full bg-white shadow">
+            <div class="container mx-auto px-4">
+                <div class="flex justify-between items-center w-full py-4">
+                    <h3 class="font-semibold">Kashish</h3>
+                    <div class="hidden lg:flex gap-10">
+                        <a class="text-xs" href="#">Work</a>
+                        <a class="text-xs" href="#">Contact</a>
+                        <a class="text-xs" href="#">Service</a>
+                        <a class="text-xs" href="#">Pricing</a>
+                    </div>
+                    <a href="#" class="lg:hidden"><i class="ri-menu-2-line"></i></a>
                 </div>
-                <a href="#"><i class="ri-menu-2-line lg:hidden"></i></a>
             </div>
-        </div>
-
+        </nav>
         <!-- Content section -->
         <div class="w-full flex flex-col items-center mt-20">
             <div class="image w-28 h-28 rounded-full bg-sky-500 flex items-center justify-center">
