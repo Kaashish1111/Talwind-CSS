@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TailWind CSS</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Remove default margins and padding from body */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html, body {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="w-full h-screen bg-white">
+        <!-- Full-width navbar -->
+        <div class=" contanier w-full">
+            <div class="flex justify-between items-center w-full px-2 py-4">
+                <h3 class="font-semibold">Kashish</h3>
+                <div class="hidden lg:flex gap-10 w-80">
+                    <a class="text-xs" href="#">Work</a>
+                    <a class="text-xs" href="#">Contact</a>
+                    <a class="text-xs" href="#">Service</a>
+                    <a class="text-xs" href="#">Pricing</a>
+                </div>
+                <a href="#"><i class="ri-menu-2-line lg:hidden"></i></a>
+            </div>
+        </div>
+
+        <!-- Content section -->
+        <div class="w-full flex flex-col items-center mt-20">
+            <div class="image w-28 h-28 rounded-full bg-sky-500 flex items-center justify-center">
+                <img src="./Screenshot 2024-09-23 121315.png" alt="avatar image from istock">
+            </div>
+            <h3 class="mt-5 font-semibold">Hii I'am Kashish 👋</h3>
+            <h1 class="text-3xl text-center font-bold mt-4 w-3/4">Building Digital products, brands, and experiences</h1>
+            <h3 class="mt-8 text-center font-semibold w-2/3">Hii, I am Kashish Goyal. I have been building websites and visual products. I am eager to learn new technologies.</h3>
+            <button type="submit" class="mt-12 px-4 py-2 bg-black text-white rounded-full tracking-tight">Connect with me</button>
+        </div>
+    </div>
+</body>
+</html>
